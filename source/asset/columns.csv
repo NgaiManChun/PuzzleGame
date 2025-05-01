@@ -1,0 +1,8 @@
+﻿key,value,remarks
+CURSOR_NEW_COL,3,新しいジェムの出現列、0～5
+NORMAL_SPEED,700,何もしない時の落下速度（１マスのかかる時間、ミニ秒）
+SPEED_MAGNIFICATION,15,下キーを押してる時の落下速度（倍率）
+GAMEOVER_HOLD_TIME,1000,ゲームオーバーした時どれくらい画面を静止するか（ミニ秒）
+DISAPPEAR_TIME,700,ジェムが消える時点滅時間
+EXPLOSION_TIME,200,ジェムが消える時の爆発かかる時間
+FALL_TIME,200,ジェムが消えた後、列整理するかかる時間

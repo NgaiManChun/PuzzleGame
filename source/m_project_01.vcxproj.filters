@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\scene">
+      <UniqueIdentifier>{d80cf507-22ec-48cb-8788-a410e07e2025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\sceneTransition">
+      <UniqueIdentifier>{66a22da1-f771-4765-832c-1032c61a1eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\MG">
+      <UniqueIdentifier>{f6437fb5-df58-425d-95bf-6807f2d399a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\MG\DX">
+      <UniqueIdentifier>{22f06908-7f80-4a39-bd6e-85f53a7c0103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MG">
+      <UniqueIdentifier>{f1c996cc-7ff3-42a1-b934-b187cc709fd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\MG\DX">
+      <UniqueIdentifier>{fa0d0397-140c-4dec-a6a4-970bd5086193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene\columns">
+      <UniqueIdentifier>{4e72e69e-eddd-4b8b-aaba-5d49cf1b1497}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene">
+      <UniqueIdentifier>{89f95610-cbf3-4989-be9a-0e1c1771eef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\gameObject">
+      <UniqueIdentifier>{5f294819-7b8f-4f16-b555-6fc63445ba38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\gameObject">
+      <UniqueIdentifier>{e3ca53a2-67bc-4089-85e3-9eb0a15d0622}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="progress.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CSVResource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル\MG</Filter>
+    </ClInclude>
+    <ClInclude Include="MGCommon.h">
+      <Filter>ヘッダー ファイル\MG</Filter>
+    </ClInclude>
+    <ClInclude Include="spriteTool.h">
+      <Filter>ヘッダー ファイル\MG</Filter>
+    </ClInclude>
+    <ClInclude Include="spriteToolDX.h">
+      <Filter>ヘッダー ファイル\MG\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="rendererDX.h">
+      <Filter>ヘッダー ファイル\MG\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject.h">
+      <Filter>ヘッダー ファイル\MG</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>ヘッダー ファイル\MG</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectXTex.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="sceneTransitaion.h">
+      <Filter>ヘッダー ファイル\MG</Filter>
+    </ClInclude>
+    <ClInclude Include="resourceTool.h">
+      <Filter>ヘッダー ファイル\MG</Filter>
+    </ClInclude>
+    <ClInclude Include="resourceToolDX.h">
+      <Filter>ヘッダー ファイル\MG\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="audioTool.h">
+      <Filter>ヘッダー ファイル\MG</Filter>
+    </ClInclude>
+    <ClInclude Include="audioToolDX.h">
+      <Filter>ヘッダー ファイル\MG\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="asciiGameObject.h">
+      <Filter>ヘッダー ファイル\gameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="commonVariable.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="progress.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CSVResource.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MGCommon.cpp">
+      <Filter>ソース ファイル\MG</Filter>
+    </ClCompile>
+    <ClCompile Include="rendererDX.cpp">
+      <Filter>ソース ファイル\MG\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="spriteToolDX.cpp">
+      <Filter>ソース ファイル\MG\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>ソース ファイル\MG</Filter>
+    </ClCompile>
+    <ClCompile Include="sceneTransitaion.cpp">
+      <Filter>ソース ファイル\MG</Filter>
+    </ClCompile>
+    <ClCompile Include="sampleTransition.cpp">
+      <Filter>ソース ファイル\sceneTransition</Filter>
+    </ClCompile>
+    <ClCompile Include="resourceTool.cpp">
+      <Filter>ソース ファイル\MG</Filter>
+    </ClCompile>
+    <ClCompile Include="resourceToolDX.cpp">
+      <Filter>ソース ファイル\MG\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="gameObject.cpp">
+      <Filter>ソース ファイル\MG</Filter>
+    </ClCompile>
+    <ClCompile Include="audioToolDX.cpp">
+      <Filter>ソース ファイル\MG\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="audioTool.cpp">
+      <Filter>ソース ファイル\MG</Filter>
+    </ClCompile>
+    <ClCompile Include="columnsResult.cpp">
+      <Filter>ソース ファイル\scene\columns</Filter>
+    </ClCompile>
+    <ClCompile Include="columnsScene.cpp">
+      <Filter>ソース ファイル\scene\columns</Filter>
+    </ClCompile>
+    <ClCompile Include="columnsTitle.cpp">
+      <Filter>ソース ファイル\scene\columns</Filter>
+    </ClCompile>
+    <ClCompile Include="asciiGameObject.cpp">
+      <Filter>ソース ファイル\gameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="flipTransitaion.cpp">
+      <Filter>ソース ファイル\sceneTransition</Filter>
+    </ClCompile>
+    <ClCompile Include="commonVariable.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
